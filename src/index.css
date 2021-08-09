@@ -9,7 +9,8 @@ body, #root{
 }
 body, input, select, textarea, button{
     font-size: 1.6rem;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 .grid-container{
     display: grid;
@@ -119,4 +120,17 @@ border: 0.1rem #808080 solid;
 
 .button.primary{
     background-color: #f0c040;
+}
+
+/*Filter*/
+.filter{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    border-bottom: 00.1rem #c0c0c0 solid;
+}
+
+.filter div{
+    flex: 1;
 }
